@@ -5,6 +5,14 @@
 #include "cs_decoration.h"
 #include "cs_Create_TV.h"
 
+void InitDiegeticUI();
+void UpdateDiegeticUI(float dt);
+void DrawDiegeticUI();
+
+#define InitDecoration InitDiegeticUI
+#define UpdateDecoration UpdateDiegeticUI
+#define DrawDecoration DrawDiegeticUI
+
 static LoadingStep currentStep = L_STATE_FALLING;
 static float stepTimer = 0.0f;
 

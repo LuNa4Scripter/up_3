@@ -36,19 +36,6 @@
 #include "../Animation/Loading_Screen_Animation/cs_decoration.h"
 #include "../Animation/Loading_Screen_Animation/cs_Create_TV.h"
 
-class UIManager {
-public:
-    void InitializeSystem();
-    void Update(float dt);
-    void Render();
-    void ShutdownSystem();
-};
-
-extern UIManager g_SystemHUD; 
-extern void InitDecoration();
-extern void UpdateDecoration(float dt);
-extern void DrawDecoration();
-
 Camera2D screenCamera = { 0 };
 int frame_counter = 0; 
 
@@ -68,9 +55,6 @@ int main() {
     InitGame();
     InitScore();
     InitLoadingScreen(); 
-    
-    // [추가] 다이제틱 UI 초기화 (cs_decoration.cpp에 정의한 함수 호출)
-    InitDecoration(); 
 
     SetTargetFPS(FPS);
 
@@ -83,9 +67,6 @@ int main() {
         UpdateScreenShake(dt);
         UpdateSettingsInput();           
         UpdateSettingAnimation(dt);      
-
-        // [추가] 다이제틱 UI 업데이트
-        UpdateDecoration(dt);
 
         if (IsKeyPressed(KEY_TAB)) {
             isWeaponMenuOpen = !isWeaponMenuOpen;
@@ -171,9 +152,6 @@ int main() {
             DrawWeaponUI();
 
             rlImGuiBegin(); 
-            // [추가] 다이제틱 UI 렌더링 (rlImGui 블록 내부에서 호출해야 함)
-            DrawDecoration();
-
             if (!isGamePaused && !isWeaponMenuOpen) {
                 UpdateAndDrawParticles(dt);
                 ProcessAiHeartSystem(enemies);
@@ -187,9 +165,6 @@ int main() {
 
         EndDrawing();
     }
-
-    // [추가] 시스템 종료 처리
-    g_SystemHUD.ShutdownSystem();
 
     rlImGuiShutdown();
     UnloadPlayerCharacter();
