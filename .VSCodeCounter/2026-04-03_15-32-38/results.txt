@@ -1,0 +1,177 @@
+Date : 2026-04-03 15:32:38
+Directory : c:\Users\me\Documents\cs
+Total : 111 files,  68080 codes, 12252 comments, 7854 blanks, all 88186 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| C++      |        103 |     67,679 |     12,230 |      7,737 |     87,646 |
+| Lua      |          2 |        274 |         22 |         65 |        361 |
+| Markdown |          1 |         63 |          0 |         28 |         91 |
+| Ini      |          1 |         33 |          0 |         12 |         45 |
+| GLSL     |          2 |         27 |          0 |         10 |         37 |
+| Batch    |          2 |          4 |          0 |          2 |          6 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                  | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                     |        111 |     68,080 |     12,252 |      7,854 |     88,186 |
+| . (Files)                                                                                             |          1 |         33 |          0 |         12 |         45 |
+| assets                                                                                                |          2 |         27 |          0 |         10 |         37 |
+| assets\shaders                                                                                        |          2 |         27 |          0 |         10 |         37 |
+| source                                                                                                |        108 |     68,020 |     12,252 |      7,832 |     88,104 |
+| source\AI                                                                                             |          6 |         74 |          0 |         21 |         95 |
+| source\AI\Cs_AI_Manager                                                                               |          2 |         28 |          0 |          7 |         35 |
+| source\AI\Cs_AI_Play                                                                                  |          4 |         46 |          0 |         14 |         60 |
+| source\Animation                                                                                      |          4 |         53 |          0 |         18 |         71 |
+| source\Animation (Files)                                                                              |          2 |         28 |          0 |         10 |         38 |
+| source\Animation\UI_Animation                                                                         |          2 |         25 |          0 |          8 |         33 |
+| source\Animation\UI_Animation\Player_setting                                                          |          2 |         25 |          0 |          8 |         33 |
+| source\Camera                                                                                         |          4 |         28 |          0 |          9 |         37 |
+| source\Camera\Cinematic_Camera                                                                        |          2 |         28 |          0 |          7 |         35 |
+| source\Camera\shaking                                                                                 |          2 |          0 |          0 |          2 |          2 |
+| source\Heart                                                                                          |          2 |          0 |          0 |          2 |          2 |
+| source\Heart\Player_Heart                                                                             |          2 |          0 |          0 |          2 |          2 |
+| source\Score                                                                                          |          2 |         24 |          1 |          7 |         32 |
+| source\UI                                                                                             |          6 |        107 |          1 |         33 |        141 |
+| source\UI\player_setting                                                                              |          6 |        107 |          1 |         33 |        141 |
+| source\Weapon_UI                                                                                      |          4 |        109 |          1 |         33 |        143 |
+| source\background                                                                                     |          2 |         41 |          4 |         12 |         57 |
+| source\data                                                                                           |          2 |        164 |          0 |         26 |        190 |
+| source\include                                                                                        |         33 |     66,604 |     12,245 |      7,465 |     86,314 |
+| source\include (Files)                                                                                |         11 |     48,214 |     11,776 |      6,849 |     66,839 |
+| source\include\rlImGui-main                                                                           |         22 |     18,390 |        469 |        616 |     19,475 |
+| source\include\rlImGui-main (Files)                                                                   |          9 |      1,144 |        250 |        302 |      1,696 |
+| source\include\rlImGui-main\examples                                                                  |         11 |        953 |        214 |        307 |      1,474 |
+| source\include\rlImGui-main\examples (Files)                                                          |          4 |        488 |        125 |        163 |        776 |
+| source\include\rlImGui-main\examples\asset_browser                                                    |          7 |        465 |         89 |        144 |        698 |
+| source\include\rlImGui-main\extras                                                                    |          2 |     16,293 |          5 |          7 |     16,305 |
+| source\main                                                                                           |          1 |        117 |          0 |         21 |        138 |
+| source\particles                                                                                      |          6 |        158 |          0 |         41 |        199 |
+| source\physics                                                                                        |          4 |         62 |          0 |         15 |         77 |
+| source\player                                                                                         |          8 |        113 |          0 |         31 |        144 |
+| source\weapon                                                                                         |         24 |        366 |          0 |         98 |        464 |
+| source\weapon\Weapon                                                                                  |         12 |        221 |          0 |         56 |        277 |
+| source\weapon\Weapon_Use                                                                              |         12 |        145 |          0 |         42 |        187 |
++-------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                                              | language | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| c:\Users\me\Documents\cs\assets\shaders\crt_scanline.fs                                               | GLSL     |         16 |          0 |          6 |         22 |
+| c:\Users\me\Documents\cs\assets\shaders\red_alert.fs                                                  | GLSL     |         11 |          0 |          4 |         15 |
+| c:\Users\me\Documents\cs\imgui.ini                                                                    | Ini      |         33 |          0 |         12 |         45 |
+| c:\Users\me\Documents\cs\source\AI\Cs_AI_Manager\cs_ai_manager.cpp                                    | C++      |         23 |          0 |          5 |         28 |
+| c:\Users\me\Documents\cs\source\AI\Cs_AI_Manager\cs_ai_manager.h                                      | C++      |          5 |          0 |          2 |          7 |
+| c:\Users\me\Documents\cs\source\AI\Cs_AI_Play\cs_ai_character.cpp                                     | C++      |         23 |          0 |          7 |         30 |
+| c:\Users\me\Documents\cs\source\AI\Cs_AI_Play\cs_ai_character.h                                       | C++      |          7 |          0 |          3 |         10 |
+| c:\Users\me\Documents\cs\source\AI\Cs_AI_Play\cs_ai_play.cpp                                          | C++      |         12 |          0 |          2 |         14 |
+| c:\Users\me\Documents\cs\source\AI\Cs_AI_Play\cs_ai_play.h                                            | C++      |          4 |          0 |          2 |          6 |
+| c:\Users\me\Documents\cs\source\Animation\UI_Animation\Player_setting\cs_player_setting_animation.cpp | C++      |         19 |          0 |          5 |         24 |
+| c:\Users\me\Documents\cs\source\Animation\UI_Animation\Player_setting\cs_player_setting_animation.h   | C++      |          6 |          0 |          3 |          9 |
+| c:\Users\me\Documents\cs\source\Animation\cs_move_Animation.cpp                                       | C++      |         20 |          0 |          6 |         26 |
+| c:\Users\me\Documents\cs\source\Animation\cs_move_Animation.h                                         | C++      |          8 |          0 |          4 |         12 |
+| c:\Users\me\Documents\cs\source\Camera\Cinematic_Camera\cs_Camera.cpp                                 | C++      |         21 |          0 |          4 |         25 |
+| c:\Users\me\Documents\cs\source\Camera\Cinematic_Camera\cs_Camera.h                                   | C++      |          7 |          0 |          3 |         10 |
+| c:\Users\me\Documents\cs\source\Camera\shaking\cs_screen_shaking.cpp                                  | C++      |          0 |          0 |          1 |          1 |
+| c:\Users\me\Documents\cs\source\Camera\shaking\cs_screen_shaking.h                                    | C++      |          0 |          0 |          1 |          1 |
+| c:\Users\me\Documents\cs\source\Heart\Player_Heart\cs_player_heart.cpp                                | C++      |          0 |          0 |          1 |          1 |
+| c:\Users\me\Documents\cs\source\Heart\Player_Heart\cs_player_heart.h                                  | C++      |          0 |          0 |          1 |          1 |
+| c:\Users\me\Documents\cs\source\Score\cs_score.cpp                                                    | C++      |         16 |          1 |          4 |         21 |
+| c:\Users\me\Documents\cs\source\Score\cs_score.h                                                      | C++      |          8 |          0 |          3 |         11 |
+| c:\Users\me\Documents\cs\source\UI\player_setting\cs_click.cpp                                        | C++      |         17 |          0 |          4 |         21 |
+| c:\Users\me\Documents\cs\source\UI\player_setting\cs_click.h                                          | C++      |          6 |          0 |          4 |         10 |
+| c:\Users\me\Documents\cs\source\UI\player_setting\cs_click_effect.cpp                                 | C++      |         15 |          0 |          4 |         19 |
+| c:\Users\me\Documents\cs\source\UI\player_setting\cs_click_effect.h                                   | C++      |          5 |          0 |          3 |          8 |
+| c:\Users\me\Documents\cs\source\UI\player_setting\cs_player_setting_UI.cpp                            | C++      |         60 |          0 |         16 |         76 |
+| c:\Users\me\Documents\cs\source\UI\player_setting\cs_player_setting_UI.h                              | C++      |          4 |          1 |          2 |          7 |
+| c:\Users\me\Documents\cs\source\Weapon_UI\cs_game_freezes.cpp                                         | C++      |          7 |          1 |          2 |         10 |
+| c:\Users\me\Documents\cs\source\Weapon_UI\cs_game_freezes.h                                           | C++      |          6 |          0 |          4 |         10 |
+| c:\Users\me\Documents\cs\source\Weapon_UI\cs_weapon_ui.cpp                                            | C++      |         92 |          0 |         25 |        117 |
+| c:\Users\me\Documents\cs\source\Weapon_UI\cs_weapon_ui.h                                              | C++      |          4 |          0 |          2 |          6 |
+| c:\Users\me\Documents\cs\source\background\cs_background_Load.cpp                                     | C++      |         33 |          4 |          8 |         45 |
+| c:\Users\me\Documents\cs\source\background\cs_background_Load.h                                       | C++      |          8 |          0 |          4 |         12 |
+| c:\Users\me\Documents\cs\source\data\cs_data.cpp                                                      | C++      |        115 |          0 |         16 |        131 |
+| c:\Users\me\Documents\cs\source\data\cs_data.h                                                        | C++      |         49 |          0 |         10 |         59 |
+| c:\Users\me\Documents\cs\source\include\imconfig.h                                                    | C++      |          1 |        123 |         24 |        148 |
+| c:\Users\me\Documents\cs\source\include\imgui.cpp                                                     | C++      |     12,999 |      3,395 |      1,781 |     18,175 |
+| c:\Users\me\Documents\cs\source\include\imgui.h                                                       | C++      |      2,466 |      1,352 |        386 |      4,204 |
+| c:\Users\me\Documents\cs\source\include\imgui_demo.cpp                                                | C++      |      8,535 |      1,349 |      1,065 |     10,949 |
+| c:\Users\me\Documents\cs\source\include\imgui_draw.cpp                                                | C++      |      5,290 |        791 |        659 |      6,740 |
+| c:\Users\me\Documents\cs\source\include\imgui_internal.h                                              | C++      |      2,971 |        608 |        413 |      3,992 |
+| c:\Users\me\Documents\cs\source\include\imgui_tables.cpp                                              | C++      |      3,088 |        989 |        497 |      4,574 |
+| c:\Users\me\Documents\cs\source\include\imgui_widgets.cpp                                             | C++      |      8,190 |      1,435 |      1,190 |     10,815 |
+| c:\Users\me\Documents\cs\source\include\imstb_rectpack.h                                              | C++      |        324 |        229 |         75 |        628 |
+| c:\Users\me\Documents\cs\source\include\imstb_textedit.h                                              | C++      |        865 |        495 |        168 |      1,528 |
+| c:\Users\me\Documents\cs\source\include\imstb_truetype.h                                              | C++      |      3,485 |      1,010 |        591 |      5,086 |
+| c:\Users\me\Documents\cs\source\include\rlImGui-main\README.md                                        | Markdown |         63 |          0 |         28 |         91 |
+| c:\Users\me\Documents\cs\source\include\rlImGui-main\examples\asset_browser\asset_browser.cpp         | C++      |        216 |         10 |         54 |        280 |
+| c:\Users\me\Documents\cs\source\include\rlImGui-main\examples\asset_browser\asset_browser.h           | C++      |         60 |         10 |         25 |         95 |
+| c:\Users\me\Documents\cs\source\include\rlImGui-main\examples\asset_browser\imgui_utils.cpp           | C++      |         60 |         20 |         14 |         94 |
+| c:\Users\me\Documents\cs\source\include\rlImGui-main\examples\asset_browser\imgui_utils.h             | C++      |         15 |         11 |          7 |         33 |
+| c:\Users\me\Documents\cs\source\include\rlImGui-main\examples\asset_browser\item_view.h               | C++      |         30 |         10 |          8 |         48 |
+| c:\Users\me\Documents\cs\source\include\rlImGui-main\examples\asset_browser\item_views.cpp            | C++      |         31 |         11 |         11 |         53 |
+| c:\Users\me\Documents\cs\source\include\rlImGui-main\examples\asset_browser\main.cpp                  | C++      |         53 |         17 |         25 |         95 |
+| c:\Users\me\Documents\cs\source\include\rlImGui-main\examples\docking_example.cpp                     | C++      |         64 |         29 |         24 |        117 |
+| c:\Users\me\Documents\cs\source\include\rlImGui-main\examples\editor.cpp                              | C++      |        291 |         27 |         87 |        405 |
+| c:\Users\me\Documents\cs\source\include\rlImGui-main\examples\imgui_style_example.cpp                 | C++      |         84 |         46 |         32 |        162 |
+| c:\Users\me\Documents\cs\source\include\rlImGui-main\examples\simple.cpp                              | C++      |         49 |         23 |         20 |         92 |
+| c:\Users\me\Documents\cs\source\include\rlImGui-main\extras\FA6FreeSolidFontData.h                    | C++      |     14,902 |          2 |          4 |     14,908 |
+| c:\Users\me\Documents\cs\source\include\rlImGui-main\extras\IconsFontAwesome6.h                       | C++      |      1,391 |          3 |          3 |      1,397 |
+| c:\Users\me\Documents\cs\source\include\rlImGui-main\imgui_impl_raylib.h                              | C++      |          9 |         39 |          6 |         54 |
+| c:\Users\me\Documents\cs\source\include\rlImGui-main\premake-VisualStudio.bat                         | Batch    |          2 |          0 |          1 |          3 |
+| c:\Users\me\Documents\cs\source\include\rlImGui-main\premake-mingw.bat                                | Batch    |          2 |          0 |          1 |          3 |
+| c:\Users\me\Documents\cs\source\include\rlImGui-main\premake5.lua                                     | Lua      |        189 |          0 |         37 |        226 |
+| c:\Users\me\Documents\cs\source\include\rlImGui-main\raylib_premake5.lua                              | Lua      |         85 |         22 |         28 |        135 |
+| c:\Users\me\Documents\cs\source\include\rlImGui-main\rlImGui.cpp                                      | C++      |        734 |         37 |        169 |        940 |
+| c:\Users\me\Documents\cs\source\include\rlImGui-main\rlImGui.h                                        | C++      |         46 |        123 |         27 |        196 |
+| c:\Users\me\Documents\cs\source\include\rlImGui-main\rlImGuiColors.h                                  | C++      |         14 |         29 |          5 |         48 |
+| c:\Users\me\Documents\cs\source\main\cs_main.cpp                                                      | C++      |        117 |          0 |         21 |        138 |
+| c:\Users\me\Documents\cs\source\particles\cs_explosion.cpp                                            | C++      |         48 |          0 |         11 |         59 |
+| c:\Users\me\Documents\cs\source\particles\cs_explosion.h                                              | C++      |          7 |          0 |          3 |         10 |
+| c:\Users\me\Documents\cs\source\particles\cs_flame.cpp                                                | C++      |         42 |          0 |         12 |         54 |
+| c:\Users\me\Documents\cs\source\particles\cs_flame.h                                                  | C++      |         15 |          0 |          4 |         19 |
+| c:\Users\me\Documents\cs\source\particles\cs_spark.cpp                                                | C++      |         32 |          0 |          7 |         39 |
+| c:\Users\me\Documents\cs\source\particles\cs_spark.h                                                  | C++      |         14 |          0 |          4 |         18 |
+| c:\Users\me\Documents\cs\source\physics\cs_physics.cpp                                                | C++      |         57 |          0 |         11 |         68 |
+| c:\Users\me\Documents\cs\source\physics\cs_physics.h                                                  | C++      |          5 |          0 |          2 |          7 |
+| c:\Users\me\Documents\cs\source\physics\cs_screen_shaking.cpp                                         | C++      |          0 |          0 |          1 |          1 |
+| c:\Users\me\Documents\cs\source\physics\cs_screen_shaking.h                                           | C++      |          0 |          0 |          1 |          1 |
+| c:\Users\me\Documents\cs\source\player\cs_attack.cpp                                                  | C++      |         20 |          0 |          1 |         21 |
+| c:\Users\me\Documents\cs\source\player\cs_attack.h                                                    | C++      |          5 |          0 |          3 |          8 |
+| c:\Users\me\Documents\cs\source\player\cs_crash.cpp                                                   | C++      |         17 |          0 |          1 |         18 |
+| c:\Users\me\Documents\cs\source\player\cs_crash.h                                                     | C++      |          4 |          0 |          2 |          6 |
+| c:\Users\me\Documents\cs\source\player\cs_move.cpp                                                    | C++      |         34 |          0 |         11 |         45 |
+| c:\Users\me\Documents\cs\source\player\cs_move.h                                                      | C++      |          4 |          0 |          2 |          6 |
+| c:\Users\me\Documents\cs\source\player\cs_player_character.cpp                                        | C++      |         22 |          0 |          8 |         30 |
+| c:\Users\me\Documents\cs\source\player\cs_player_character.h                                          | C++      |          7 |          0 |          3 |         10 |
+| c:\Users\me\Documents\cs\source\weapon\Weapon\cs_Cannon.cpp                                           | C++      |         14 |          0 |          5 |         19 |
+| c:\Users\me\Documents\cs\source\weapon\Weapon\cs_Cannon.h                                             | C++      |          6 |          0 |          3 |          9 |
+| c:\Users\me\Documents\cs\source\weapon\Weapon\cs_Machine.cpp                                          | C++      |         11 |          0 |          2 |         13 |
+| c:\Users\me\Documents\cs\source\weapon\Weapon\cs_Machine.h                                            | C++      |          5 |          0 |          3 |          8 |
+| c:\Users\me\Documents\cs\source\weapon\Weapon\cs_Rotary.cpp                                           | C++      |         38 |          0 |          6 |         44 |
+| c:\Users\me\Documents\cs\source\weapon\Weapon\cs_Rotary.h                                             | C++      |          7 |          0 |          3 |         10 |
+| c:\Users\me\Documents\cs\source\weapon\Weapon\cs_burst.cpp                                            | C++      |         28 |          0 |          5 |         33 |
+| c:\Users\me\Documents\cs\source\weapon\Weapon\cs_burst.h                                              | C++      |          6 |          0 |          3 |          9 |
+| c:\Users\me\Documents\cs\source\weapon\Weapon\cs_rpg.cpp                                              | C++      |         55 |          0 |         11 |         66 |
+| c:\Users\me\Documents\cs\source\weapon\Weapon\cs_rpg.h                                                | C++      |          7 |          0 |          3 |         10 |
+| c:\Users\me\Documents\cs\source\weapon\Weapon\cs_shotgun.cpp                                          | C++      |         37 |          0 |          9 |         46 |
+| c:\Users\me\Documents\cs\source\weapon\Weapon\cs_shotgun.h                                            | C++      |          7 |          0 |          3 |         10 |
+| c:\Users\me\Documents\cs\source\weapon\Weapon_Use\cs_Cannon_Use.cpp                                   | C++      |         13 |          0 |          3 |         16 |
+| c:\Users\me\Documents\cs\source\weapon\Weapon_Use\cs_Cannon_Use.h                                     | C++      |          5 |          0 |          3 |          8 |
+| c:\Users\me\Documents\cs\source\weapon\Weapon_Use\cs_Machine_Use.cpp                                  | C++      |         13 |          0 |          3 |         16 |
+| c:\Users\me\Documents\cs\source\weapon\Weapon_Use\cs_Machine_Use.h                                    | C++      |          5 |          0 |          3 |          8 |
+| c:\Users\me\Documents\cs\source\weapon\Weapon_Use\cs_Rotary_Use.cpp                                   | C++      |         17 |          0 |          3 |         20 |
+| c:\Users\me\Documents\cs\source\weapon\Weapon_Use\cs_Rotary_Use.h                                     | C++      |          6 |          0 |          3 |          9 |
+| c:\Users\me\Documents\cs\source\weapon\Weapon_Use\cs_burst_Use.cpp                                    | C++      |         14 |          0 |          3 |         17 |
+| c:\Users\me\Documents\cs\source\weapon\Weapon_Use\cs_burst_Use.h                                      | C++      |          5 |          0 |          3 |          8 |
+| c:\Users\me\Documents\cs\source\weapon\Weapon_Use\cs_rpg_Use.cpp                                      | C++      |         29 |          0 |          6 |         35 |
+| c:\Users\me\Documents\cs\source\weapon\Weapon_Use\cs_rpg_Use.h                                        | C++      |          7 |          0 |          3 |         10 |
+| c:\Users\me\Documents\cs\source\weapon\Weapon_Use\cs_shotgun_Use.cpp                                  | C++      |         25 |          0 |          6 |         31 |
+| c:\Users\me\Documents\cs\source\weapon\Weapon_Use\cs_shotgun_Use.h                                    | C++      |          6 |          0 |          3 |          9 |
+| Total                                                                                                 |          |     68,080 |     12,252 |      7,854 |     88,186 |
++-------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
